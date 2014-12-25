@@ -1,0 +1,15 @@
+.wikify.linkword{
+	background-color:#FFFBCC;
+	background-image:url(/wp-content/plugins/wikify/js/icons/no.png);
+	background-repeat: no-repeat;
+	padding-left: 17px;
+	background-position:1px 4px;
+	padding-right:3px;
+}
+.wikify.linklabel{
+	background-color:#eee;
+	padding:0 3px;
+}
+.wikify.existing-wikipost{
+	background-image:url(/wp-content/plugins/wikify/js/icons/yes.png);
+}

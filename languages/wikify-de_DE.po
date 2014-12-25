@@ -1,0 +1,26 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wikify\n"
+"POT-Creation-Date: 2014-12-22 18:08+0100\n"
+"PO-Revision-Date: 2014-12-22 18:08+0100\n"
+"Last-Translator: Joachim Happel <joachim.happel@gmail.com>\n"
+"Language-Team: Joachim\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: L:\\Workspace\\blogserver\\trunk\\wp-content\\plugins"
+"\\wikify\n"
+
+#: L:\Workspace\blogserver\trunk\wp-content\plugins\wikify/wikify.php:83
+msgid "Which term should be linked?"
+msgstr "Welcher Begriff soll verlinkt werden?"
+
+#: L:\Workspace\blogserver\trunk\wp-content\plugins\wikify/wikify.php:125
+msgid "Do explain"
+msgstr "Erkläre "
