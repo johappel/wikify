@@ -48,5 +48,5 @@ Screenshots
 Changelog
 ---------------------
 
-0.2 add wisiwyg editor button
-0.1 intial release
+ 0.2 add wisiwyg editor button
+ 0.1 intial release
