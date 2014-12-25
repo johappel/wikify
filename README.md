@@ -1,19 +1,16 @@
 wikify
 ======
 
-Contributors: Joachim Happel
-Donate link: joachim.happel@gmail.com
-Tags: wiki
-Requires at least: 3.5
-Tested up to: 4.1
-Stable tag: 0.2
-Version: 0.2
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ # Contributors: Joachim Happel 
+ # Donate link: joachim.happel@gmail.com
+ # Requires wordpress  at least: 3.5
+ # Tested up to Version: 4.1
+ # License: GPLv2 or later
+ # License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Description
 ---------------------
-An easy-to-use plugin that adds the functionality of a wiki known from MediaWiki. In edit mode, you can add squared bracket around one or multiple words.
+An easy-to-use worpress plugin that adds the functionality of a wiki known from MediaWiki. In edit mode, you can add squared bracket around one or multiple words.
 Wikify will create a link to an article with the given title automatically. If there is still no article, you will be directed to the edit mode and open a new post under your chosen title .
 
 Ein leicht zu verwendendes Plugin, das zu Ihrem Blog die Funktionionalität eines Wikis hinzufügt, wie man sie auch bei MediaWiki kennt.  Im Bearbeitungsmodus können Sie doppelte eckige Klammern um eines oder mehrere Worte setzen.
