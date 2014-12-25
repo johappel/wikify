@@ -44,9 +44,3 @@ Screenshots
 4. Realtime Validation
 5. Autolink on Frontend
 
-
-Changelog
----------------------
-
- 0.2 add wisiwyg editor button
- 0.1 intial release
