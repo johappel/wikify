@@ -6,7 +6,7 @@ wikify (for wordpress)
  - Tested up to Version: 4.1
  - License: GPLv2  http://www.gnu.org/licenses/gpl-2.0.html
 
-[![logo](https://raw.githubusercontent.com/johappel/wikify/master/assets/wikify.png)
+![logo](https://raw.githubusercontent.com/johappel/wikify/master/assets/wikify.png)
 
 Description
 ---------------------
