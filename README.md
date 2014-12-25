@@ -1,5 +1,5 @@
-wikify (for wordpress)
-======
+wikify wordpress plugin
+=====================
 
  - Author: Joachim Happel 
  - Requires wordpress  at least: 3.5
