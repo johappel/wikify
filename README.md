@@ -6,6 +6,8 @@ wikify (for wordpress)
  - Tested up to Version: 4.1
  - License: GPLv2  http://www.gnu.org/licenses/gpl-2.0.html
 
+[![logo](https://raw.githubusercontent.com/johappel/wikify/master/assets/wikify.png)
+
 Description
 ---------------------
 An easy-to-use worpress plugin that adds the functionality of a wiki known from MediaWiki. In edit mode, you can add squared bracket around one or multiple words.
