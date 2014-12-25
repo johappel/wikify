@@ -33,9 +33,9 @@ Installation
 Screenshots
 ---------------------
 
-1. Two Editor Buttons
-2. Mark & Click
-3. Optional: Set Label
-4. Realtime Validation
-5. Autolink on Frontend
+1. [![Two Editor Buttons](https://raw.githubusercontent.com/johappel/wikify/master/screenshot_1.png)](http://tantaman.com/Strut)
+2. [![Mark & Click](https://raw.githubusercontent.com/johappel/wikify/master/screenshot_2.png)](http://tantaman.com/Strut)
+3. [![Optional: Set Label](https://raw.githubusercontent.com/johappel/wikify/master/screenshot_3.png)](http://tantaman.com/Strut)
+4. [![Realtime Validation](https://raw.githubusercontent.com/johappel/wikify/master/screenshot_4.png)](http://tantaman.com/Strut)
+5. [![Autolink on Frontend](https://raw.githubusercontent.com/johappel/wikify/master/screenshot_5.png)](http://tantaman.com/Strut)
 
