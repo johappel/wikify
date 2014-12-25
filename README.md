@@ -1,12 +1,10 @@
-wikify
+wikify (for wordpress)
 ======
 
- # Contributors: Joachim Happel 
- # Donate link: joachim.happel@gmail.com
- # Requires wordpress  at least: 3.5
- # Tested up to Version: 4.1
- # License: GPLv2 or later
- # License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ - Author: Joachim Happel 
+ - Requires wordpress  at least: 3.5
+ - Tested up to Version: 4.1
+ - License: GPLv2  http://www.gnu.org/licenses/gpl-2.0.html
 
 Description
 ---------------------
