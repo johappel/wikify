@@ -1,7 +1,8 @@
 <?php
 /*
   Plugin Name: Wikify
-  Plugin URI: https://github.com/johappel/wikify/archive/master.zip
+  Plugin URI: https://github.com/johappel/wikify/blob/master/README.md
+  Plugin SRC: https://github.com/johappel/wikify/archive/master.zip
   Description: An easy-to-use plugin that adds the functionality of a wiki known from MediaWiki. It handles [[word]] and [[word|link label]] .
   Version: 0.3
   Author: Joachim Happel
