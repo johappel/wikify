@@ -1,6 +1,6 @@
 .wikify.linkword{
 	background-color:#FFFBCC;
-	background-image:url(/wp-content/plugins/wikify/js/icons/no.png);
+	background-image:url(../js/icons/no.png);
 	background-repeat: no-repeat;
 	padding-left: 17px;
 	background-position:1px 4px;
@@ -11,5 +11,5 @@
 	padding:0 3px;
 }
 .wikify.existing-wikipost{
-	background-image:url(/wp-content/plugins/wikify/js/icons/yes.png);
+	background-image:url(../js/icons/yes.png);
 }
