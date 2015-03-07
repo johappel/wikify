@@ -3,7 +3,7 @@
   Plugin Name: Wikify
   Plugin URI: http://www.joachim-happel.de/wikify
   Description: An easy-to-use plugin that adds the functionality of a wiki known from MediaWiki. It handles [[word]] and [[word|link label]] .
-  Version: 0.2
+  Version: 0.3
   Author: Joachim Happel
   Author URI: http://www.joachim-happel.de
 
