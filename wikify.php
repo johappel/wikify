@@ -1,11 +1,11 @@
 <?php
 /*
   Plugin Name: Wikify
-  Plugin URI: http://www.joachim-happel.de/wikify
+  Plugin URI: https://github.com/johappel/wikify/archive/master.zip
   Description: An easy-to-use plugin that adds the functionality of a wiki known from MediaWiki. It handles [[word]] and [[word|link label]] .
   Version: 0.3
   Author: Joachim Happel
-  Author URI: http://www.joachim-happel.de
+  Author URI: https://github.com/johappel/
 
   Features:
   * generate an auto-link to word in double brackets to a Post, with this link
