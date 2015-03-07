@@ -3,7 +3,7 @@ wikify wordpress plugin
 
  - Author: Joachim Happel 
  - Requires wordpress  at least: 3.5
- - Tested up to Version: 4.1
+ - Tested up to Version: 4.1.1
  - License: GPLv2  http://www.gnu.org/licenses/gpl-2.0.html
 
 ![logo](https://raw.githubusercontent.com/johappel/wikify/master/assets/wikify.png)
