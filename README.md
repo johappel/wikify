@@ -1,6 +1,8 @@
 wikify wordpress plugin
 =====================
 
+[![Join the chat at https://gitter.im/johappel/wikify](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/johappel/wikify?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
  - Author: Joachim Happel 
  - Requires wordpress  at least: 3.5
  - Tested up to Version: 4.1.1
