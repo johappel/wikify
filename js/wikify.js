@@ -42,7 +42,7 @@ jQuery(document).ready(function($) {
 						(ids!==this.wikiwords.all)
 					){
 						this.wikiwords.all =  ids;
-						console.info('checkserver'); 
+						//console.info('checkserver'); 
 						
 						
 						
@@ -127,7 +127,7 @@ jQuery(document).ready(function($) {
 							}
 						}
 						//console.log(p.wikiwords);
-						p.getWikiWords(p.ed.dom.doc);
+						//p.getWikiWords(p.ed.dom.doc);
 					}
 					
 				},
@@ -145,6 +145,7 @@ jQuery(document).ready(function($) {
 			
 						
 			ed.on('change',function(e){
+				//console.log('changed');
 				p.getWikiWords(e.target.dom.doc);
 				
 			});
@@ -160,7 +161,7 @@ jQuery(document).ready(function($) {
 				p.setWikiWordStyles();
 				p.wikiwords={},
 				p.getWikiWords(ed.dom.doc);
-				
+				//console.log('content loaded');
 			});
 			
 			
@@ -178,7 +179,7 @@ jQuery(document).ready(function($) {
 					//Wrap brackets around it.
 					content =  '[[<a href="#" id="wikiword-'+p.maxId+'" class="wikify linkword">'+selected.trim()+'</a>]]';
 					if(selected.substring(selected.length-1) == ' ') content += ' ';
-					
+					//console.log('selected brackets');
 					p.getWikiWords(ed.dom.doc);
 					
 					
@@ -216,7 +217,7 @@ jQuery(document).ready(function($) {
 						
 						content =  '[[<a href="/'+wikiword+'" id="wikiword-'+p.maxId+'"  class="wikify linkword">'+wikiword+'</a>|<span class="wikify linklabel">'+selected.trim()+'</span>]]';
 						if(selected.substring(selected.length-1) == ' ') content += ' ';
-						
+						//console.log('wikify_insert_brackets_label');
 						p.getWikiWords(ed.dom.doc);
 					
 					}
