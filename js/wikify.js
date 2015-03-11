@@ -1,11 +1,12 @@
 jQuery(document).ready(function($) {
-	
 
 
     tinymce.create('tinymce.plugins.wikify_plugin', {
 		maxId:0,
 		wikiwords:{},
 		activeNode:null,		
+		
+					
 		
 		getWikiWords: function(el){
 		
@@ -55,6 +56,7 @@ jQuery(document).ready(function($) {
 			
 		},
 		setWikiWordStyles: function(){
+			
 			var c = tinyMCE.activeEditor.getContent();
 			var i=0;
 			c = c.replace(/\[\[([^\]]+)\]\]/g, function(match, contents){
@@ -96,6 +98,11 @@ jQuery(document).ready(function($) {
 				},
 				success:function(data) {
 					data = jQuery.parseJSON(data);
+						
+					if(data.external){
+						
+						return;
+					}
 					if(data.result){
 						//reset
 						for(elem in p.wikiwords){
@@ -136,7 +143,25 @@ jQuery(document).ready(function($) {
 				}
 			});
 		},
-		
+		checkExternalUsage: function(fn){
+			var p=this;
+			$.ajax({
+				url: ajaxurl,
+				data: {
+					'action':'check_external_usage',
+					'contents': new Array()
+				},
+				success:function(data) {
+					data = jQuery.parseJSON(data);
+					if(data && data.external){
+						p.external = true;
+						return;
+					}else{
+						fn(p);
+					}
+				}
+			});
+		},
 		init : function(ed, url) {
 		
 			this.ed = ed;
@@ -158,10 +183,13 @@ jQuery(document).ready(function($) {
 			
 			//mask wikiwords onLoad
 			ed.on('LoadContent',function(e){
-				p.setWikiWordStyles();
-				p.wikiwords={},
-				p.getWikiWords(ed.dom.doc);
-				//console.log('content loaded');
+				p.checkExternalUsage(function(p){
+					p.setWikiWordStyles();
+					p.wikiwords={},
+					p.getWikiWords(ed.dom.doc);
+				});
+				
+				
 			});
 			
 			
